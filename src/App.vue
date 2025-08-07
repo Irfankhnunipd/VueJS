@@ -6,10 +6,12 @@
 <GetInputValues />
 <CheckboxRadio />
 <IfElse />
+<ForLoop />
 </template>
 
 <script>
 import CheckboxRadio from './components/CheckboxRadio.vue';
+import ForLoop from './components/ForLoop.vue';
 import GetInputValues from './components/GetInputValues.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import HomeView from './components/HomeView.vue'
@@ -26,6 +28,7 @@ export default {
         GetInputValues,
         CheckboxRadio,
         IfElse,
+        ForLoop,
     }
 }
 </script>
